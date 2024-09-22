@@ -1,0 +1,54 @@
+#container {
+    height: 500px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgb(190, 244, 244);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+
+    /* justify-content: space-around; */
+
+    flex-wrap: wrap;
+
+    /* align-items:flex-end; */
+
+}
+
+#container div {
+    height: 100px;
+    width: 100px;
+    color: ghostwhite;
+    font-size: 1.2em;
+}
+
+#div1 {
+    flex-basis: 500px;
+    /* align-self: flex-end; */
+    background-color: blue;
+}
+#div2 {
+    flex-basis: 300px;
+    background-color: Green;
+}
+#div3 {
+    background-color: red;
+}
+#div4 {
+    background-color: yellow;
+}
+#div5 {
+    background-color: aqua;
+}
+#div6 {
+    background-color: maroon;
+}
+#div7 {
+    flex-grow: 1;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: darkorange;
+}

@@ -1,0 +1,12 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(42, 157, 157, 0.5);
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    opacity: 0.4;
+}

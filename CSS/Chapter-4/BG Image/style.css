@@ -1,0 +1,7 @@
+div{
+    height: 200px;
+    width: 200px;
+    /* background-color: aqua; */
+    background-image: url("image2.jpg");
+    background-size: cover;
+}

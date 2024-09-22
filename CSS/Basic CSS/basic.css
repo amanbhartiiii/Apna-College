@@ -1,0 +1,11 @@
+h1{
+    background-color: aquamarine;
+    color: goldenrod;
+}
+
+button:hover{
+    color: blueviolet;
+    background-color: darkcyan;
+    font-size: large;
+    margin-left: 50%;
+}

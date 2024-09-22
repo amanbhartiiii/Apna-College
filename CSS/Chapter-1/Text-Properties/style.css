@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    text-decoration: red wavy underline;
+}
+h3{
+    text-align: start;
+    text-decoration: double goldenrod overline;
+    font-family: Impact;
+
+}
+
+p{
+    text-align: justify;
+    /* font-weight: bolder; */
+    /* line-height: 2.5; */
+    /* letter-spacing: 1.5px; */
+
+    font-size: 25px;
+    font-family: Geneva;
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}

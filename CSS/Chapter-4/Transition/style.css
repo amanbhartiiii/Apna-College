@@ -1,0 +1,15 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(42, 157, 157, 0.5);
+    color: rgba(42, 157, 157, 0);
+    text-align: center;
+    padding: 3em;
+    transition: 1s;
+}
+
+div:hover {
+    background-color: black;
+    color: #f2f8ff;
+    border-radius: 50%;
+}

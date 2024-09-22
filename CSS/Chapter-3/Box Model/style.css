@@ -1,0 +1,36 @@
+
+div {
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: rgb(17, 7, 7); */
+
+    border: 3px solid magenta;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+    margin: 20px;
+
+}
+
+h1 {
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(20, 4, 255); */
+
+    border: 2px dashed blue;
+    border-left: 5px solid rgb(252, 40, 40);
+    border-right: 10px double rgb(8, 227, 201);
+}
+
+button  {
+    background-color: lightblue;
+    color: #eef3f6;
+    height: 30px;
+    width: 80px;
+    border: 2px solid rgb(205, 24, 54);
+    border-radius: 20px;
+}

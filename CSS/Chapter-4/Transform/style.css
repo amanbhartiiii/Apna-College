@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    transition-duration: 2s;
+}
+
+div:nth-of-type(2n) {
+    background-color: coral;
+}
+#div1 {
+    transform: rotate(45deg);
+}
+
+#div2 {
+    transform: scale(.5)
+}
+
+#div3 {
+    transform: translateX(30%);
+}
+
+#div4 {
+    transform:translate(50%, 20%)
+}
+
+#div5 {
+    transform: skew(30deg);
+}

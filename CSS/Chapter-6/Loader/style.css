@@ -1,0 +1,28 @@
+div {
+    margin: 100px auto;
+    height: 100px;
+    width: 100px;
+    border: 10px solid rgb(223, 215, 209);
+    border-radius: 50%;
+    border-top-color: rgb(219, 132, 46);
+    animation: rotate 0.3s ease-in-out 1s infinite alternate;
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+        border-top-color: brown;
+        border-bottom-color: rgb(147, 165, 42);
+        border-right-color: rgb(204, 23, 168);
+        border-left-color: rgb(37, 184, 29);
+    }
+
+    to{
+        transform: rotate(360deg);
+        border-top-color: aqua;
+        border-bottom-color: burlywood;
+        border-right-color: lawngreen;
+        border-left-color: mediumslateblue;
+
+    }
+}

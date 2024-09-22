@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #001F3F;
+    display: flex;
+    color: aliceblue;
+    margin: 0;
+    box-shadow: 2px 2px 10px black;
+    position: fixed;
+    top: 0;
+}
+
+header #name {
+    display: inline-block;
+    width: 30%;
+    transition: 1s;
+    filter: drop-shadow(1px 1px 5px rgb(254, 253, 253));
+}
+
+header #name:hover {
+    filter: drop-shadow(3px 3px 15px rgb(254, 253, 253));
+    font-size: 1.02em;
+}
+
+nav {
+    display: flex;
+    width: 70%;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: baseline;
+    align-items: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: #f3f5f8;
+    filter: drop-shadow(2px 2px 10px rgb(254, 253, 253));
+    text-decoration: none;
+    transition: 1s;
+}
+ul li a:hover {
+    transform: scale(1.5);
+    font-size: large;
+    filter: drop-shadow(1px 1px 5px rgb(229, 240, 14));
+}
+
+#myimg {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    margin: 15px;;
+    background-image: url(my-img.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px yellow;
+}
+    
+
+#myimg:active {
+    transform: scale(5);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+#myimg:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 15px);
+}
+
+section {
+    /* background-image: url("comp.png"); */
+    background-color: #60a7be;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+}
+    
+
+#intro {
+    padding: 5%;
+    height: 60%;
+    width: 30%;
+    background-color: transparent;
+    color: #f3f5f8;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    
+   
+    font-size: xx-large;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px rgb(110, 78, 20);
+    transition: 1.5s;
+} 
+
+
+#intro:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 15px rgb(20, 18, 18);
+}
+
+#intro h1 {
+    transition: 1s;
+}
+
+#intro h1:hover {
+    transform: scale(1.01);
+    filter:drop-shadow(2px 2px 15px rgb(247, 247, 249)) ;
+}
+#intro p {
+    transition: 0.5s;
+}
+
+#intro p:hover {
+    transform: scale(1.01);
+    filter:drop-shadow(2px 2px 15px rgb(19, 19, 126)) ;
+}
+
+#about-btn {
+    color: #f3f5f8;
+    background-color: rgb(44, 44, 157);
+    height: 2.5em;
+    width: 7em;
+    border: 2px solid rgb(14, 183, 230);
+    border-radius: 20px;
+    margin-left: 30%;
+    box-shadow: 2px 2px 5px black;
+    transition: 1s;
+}
+
+#about-btn:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 15px white);
+}
+
+
+
+#pimg {
+    height: 30em;
+    width: 30em;
+    margin-top: 10%;
+    color: #f3f5f8;
+    padding: 0px 5px 0 15px;
+    /* background-image: url("comp.png"); */
+    background-size: cover;
+    box-shadow: 2px 2px 10px rgb(110, 78, 20);
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 15px rgb(150, 16, 16));
+    transition: 1.5s;
+}
+
+#pimg:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 15px rgb(20, 18, 18);
+}
